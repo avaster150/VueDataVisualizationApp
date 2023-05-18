@@ -1,24 +1,5 @@
-# vue-data-visualization-app
 
-## Project setup
-```
-npm install
-```
+# Vue Data Visualization App
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+The application displays random user data using the Randomuser API. The app includes pagination to display different user pages by triggering new API calls. Also there is a button to sort users by their age, which is a control to interact with the data on the screen. In addition, functionality has been implemented to add users to the 'Favorites' list, which is displayed in a separate view using Vue Router.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
