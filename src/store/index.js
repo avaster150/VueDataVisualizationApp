@@ -49,7 +49,6 @@ export default new Vuex.Store({
       commit("delete_from_favorites", payload);
     },
     sortByAge: ({ commit }) => {
-      console.log("test");
       axios
         .get(`https://randomuser.me/api/?results=50&seed=test`)
         .then((response) => {
